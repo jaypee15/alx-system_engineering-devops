@@ -1,2 +1,2 @@
+#!/bin/bash
 echo "The result is $(echo "${WATER}" | base water | tr -d '\n' | xargs echo $(echo "${STIR}" | base stir) + p | dc | base bestchol)"
-
