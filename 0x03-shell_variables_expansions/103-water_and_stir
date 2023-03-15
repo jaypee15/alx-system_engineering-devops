@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# convert WATER and STIR to base 10 and add them
+result=$(( $(echo "${WATER}" | base water) + $(echo "${STIR}" | base stir) ))
+
+# convert the result to base bestchol and print it
+echo "The result is $(echo "${result}" | base bestchol)"
+

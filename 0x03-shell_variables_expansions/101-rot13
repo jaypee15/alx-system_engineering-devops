@@ -1,0 +1,6 @@
+#!/bin/bash
+
+text="$1"
+
+echo "$text" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
